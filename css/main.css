@@ -1,6 +1,6 @@
 body, a, h1, h2, #container, #lista {
 	background-color: #121212;
-	font-family: "Monofur", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -28,7 +28,7 @@ input {
 a {
 	text-decoration: none;
 	color: #ffffd7;
-	font-size: 16pt;
+	font-size: 15pt;
 }
 
 a:hover {
@@ -37,13 +37,13 @@ a:hover {
 
 h1 {
 	color: #ffffff;
-	font-size: 23pt;
+	font-size: 20pt;
 	text-align: center;
 }
 
 h2 {
 	color: #ffffd7;
-	font-size: 19pt;
+	font-size: 17pt;
 	font-weight: bold;
 	text-align: center;
 	padding: 1px;
@@ -61,7 +61,7 @@ h2 {
 	text-align: center;
 	width: 270px;
 	height: 370px;
-	padding: 5px 25px 5px 25px;
+	padding: 3px 23px 3px 23px;
 	float: left;
 	overflow: auto;
 }
