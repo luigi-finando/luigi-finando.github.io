@@ -14,6 +14,16 @@ input {
 	width: 90%;
 }
 
+textarea {
+	background-color: #ffffd7;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20pt;
+	color: black;
+	width: 90%;
+  height: 300px;
+}
+
+
 a {
 	text-decoration: none;
 	color: #ffffd7;
@@ -25,7 +35,7 @@ a:hover {
 }
 
 h1 {
-	color: #ffffff;
+	color: #ffffd7;
 	font-size: 20pt;
 	text-align: center;
 }
@@ -49,7 +59,7 @@ body {
 	grid-gap: 3em;
 }
 
-.searchform {
+.forms {
 	display: block;
 	text-align: center;
 }
