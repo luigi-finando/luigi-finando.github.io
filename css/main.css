@@ -3,7 +3,7 @@ body, a, h1, h2, #container, #lista {
 	font-family: "Alegreya Sans", "Open Sans", sans-serif;
 }
 
-header, footer {
+header {
   text-align: center;
   padding: 10px 0px 10px 0px;
   background-color: #ffffd7;
@@ -14,20 +14,26 @@ header a {
   font-size: 25pt;
   background-color: #ffffd7;
   color: #121212;
+  padding: 0 30px 0 30px;
 }
 
 footer p {
   font-size: 12pt;
   color: #121212;
+  text-align: center;
 }
+
+footer {
+  display: grid;
+  background-color: #ffffd7;
+  color: #121212;
+}
+
 
 body {
 	display: grid;
 	grid-template-columns: 1fr;
-  grid-auto-rows: 100%;
   grid-gap: 3em;
-  justify-self: stretch;
-  height: 100%;
 }
 
 input {
@@ -81,13 +87,13 @@ ul, li, #coluna {
 
 img {
   padding: 0;
-  text-align: center;
-  width: 100%;
+  width: 70%;
   line-height: 100%;
 }
 
 .selecionado {
   color: #00A289;
+  font-weight: bold;
 }
 
 .forms {
@@ -98,31 +104,30 @@ img {
 .indexgrid {
   display: grid;
   grid-template-columns: 40% 60%;
-  grid-auto-columns: minmax(100px, auto)
+  grid-auto-columns: minmax(auto, 70px);
+  align-items: center;
 }
 
 .indexgrid > div {
   padding: 2em;
-  height: 100%;
+  grid-auto-rows: minmax(100%, auto);
 }
 
 #photo {
-  align-itens: center;
-}
-
-#bio {
-  display: grid;
+  text-align: center;
 }
 
 #bio > div {
   padding: 2em;
   grid-auto-rows:100%;
+  border: solid white;
 }
 
-#bio ul, #bio a, #bio h2 {
-  display:block;
-  font-size: 30pt;
-  padding: 0;
+.gridhalf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid white;
+  text-align: center;
 }
 
 .grid {
@@ -137,9 +142,12 @@ img {
 	grid-column-gap: 2em;
 }
 
-@media(max-width: 720px){
+@media(max-width: 800px){
 
   h1, h2, input, a, #bio p, #bio a, #bio h2, header a {
     font-size: 12pt;
   }
+
+  .indexgrid {
+    grid-template-columns: 100%;
 }
