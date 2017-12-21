@@ -171,3 +171,14 @@ p {
   }
 
 }
+
+.post-list {
+  text-align: left;
+}
+
+.post-meta {
+	text-decoration: none;
+	color: #ffffd7;
+	font-size: 18pt;
+  text-align: left;
+}
