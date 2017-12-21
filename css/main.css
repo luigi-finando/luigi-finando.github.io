@@ -121,6 +121,7 @@ p {
 .griddois {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 1em;
 }
 
 .gridtres {
@@ -159,8 +160,14 @@ p {
     grid-template-columns: 100%;
   }
 
-  header {
+  .gridfour {
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;
+  }
+
+  nav {
     display: grid;
+    grid-template-columns: 50% 50%;
   }
 
 }
