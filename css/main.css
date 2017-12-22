@@ -119,7 +119,7 @@ article h1 {
 }
 
 .selecionado {
-  color: #00A289;
+  color: #00A289 !important;
   font-weight: bold;
 }
 
@@ -159,7 +159,7 @@ article h1 {
 }
 
 .highlighter-rouge {
-  color: darkred;
+  color: lightcoral;
   background-color: #000000;
   font-size: 20pt;
   font-family: inherit;
@@ -180,6 +180,32 @@ article h1 {
 .highlight {
   background-color: #000000;
   padding: 1em 2em 1em 2em;
+}
+
+.home {
+  border: solid lightyellow;
+  padding: 1em;
+  margin: auto;
+  width: 70%;
+}
+
+.home h1 {
+  text-align: left;
+  font-size: 40pt;
+}
+
+.home p, .home a, .home li, .home h2 {
+  text-align: left;
+}
+
+.home p, .home a:hover {
+  color: lightcoral;
+}
+
+.home h2{
+  padding: 0em 3em 3em 3em;
+  margin: 0;
+  display: inline;
 }
 
 #photo {
