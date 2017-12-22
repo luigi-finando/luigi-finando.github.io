@@ -96,6 +96,27 @@ p {
   text-justify: inter-word;
 }
 
+article {
+  width:70%;
+  background-color: #121212;
+  color: #ffffd7;
+  display:grid;
+  padding: 5em;
+}
+
+article header {
+  display: inline;
+  background-color: #121212;
+}
+
+article p {
+  font-size: 25pt;
+}
+
+article h1 {
+  font-size: 30pt;
+}
+
 .selecionado {
   color: #00A289;
   font-weight: bold;
@@ -150,12 +171,6 @@ p {
   border: solid white;
 }
 
-.post{
-  display:grid;
-  width:70%;
-  background-color: #121212;
-}
-
 .post-list {
   text-align: left;
 }
@@ -185,6 +200,10 @@ p {
   nav {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+
+  article {
+    padding: 0;
   }
 
 }
