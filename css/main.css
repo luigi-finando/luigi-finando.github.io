@@ -102,6 +102,7 @@ article {
   color: #ffffd7;
   display:grid;
   padding: 5em;
+  margin: auto;
 }
 
 article header {
@@ -165,20 +166,6 @@ article h1 {
   padding: 3px;
 }
 
-#photo {
-  text-align: center;
-}
-
-#bio > div {
-  padding: 2em;
-  grid-auto-rows:100%;
-}
-
-#biolinks {
-  text-align: center;
-  border: solid white;
-}
-
 .post-list {
   text-align: left;
 }
@@ -192,7 +179,21 @@ article h1 {
 
 .highlight {
   background-color: #000000;
-  padding: 1em 2em 1em 1em;
+  padding: 1em 2em 1em 2em;
+}
+
+#photo {
+  text-align: center;
+}
+
+#bio > div {
+  padding: 2em;
+  grid-auto-rows:100%;
+}
+
+#biolinks {
+  text-align: center;
+  border: solid white;
 }
 
 @media(max-width: 800px){
