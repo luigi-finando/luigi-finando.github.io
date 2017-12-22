@@ -172,6 +172,11 @@ p {
 
 }
 
+.post{
+  display:grid;
+  background-color: #121212;
+}
+
 .post-list {
   text-align: left;
 }
