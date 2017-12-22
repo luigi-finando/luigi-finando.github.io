@@ -150,6 +150,23 @@ p {
   border: solid white;
 }
 
+.post{
+  display:grid;
+  width:70%;
+  background-color: #121212;
+}
+
+.post-list {
+  text-align: left;
+}
+
+.post-meta {
+	text-decoration: none;
+	color: #ffffd7;
+	font-size: 18pt;
+  text-align: left;
+}
+
 @media(max-width: 800px){
 
   h1, h2, input, a, #bio p, #bio a, #bio h2, header a, textarea {
@@ -170,20 +187,4 @@ p {
     grid-template-columns: 50% 50%;
   }
 
-}
-
-.post{
-  display:grid;
-  background-color: #121212;
-}
-
-.post-list {
-  text-align: left;
-}
-
-.post-meta {
-	text-decoration: none;
-	color: #ffffd7;
-	font-size: 18pt;
-  text-align: left;
 }
