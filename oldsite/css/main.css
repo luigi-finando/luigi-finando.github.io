@@ -1,14 +1,3 @@
-html {
-  padding: 0;
-  height: 100%;
-}
-
-body {
-  border-left: solid #ffffd7 20px;
-  border-right: solid #ffffd7 20px;
-}
-
-
 body, a, h1, h2, #container, #lista {
 	background-color: #121212;
 	font-family: "Alegreya Sans", "Open Sans", sans-serif;
@@ -74,8 +63,7 @@ a, p {
 }
 
 a:hover {
-	color: black;
-  font-weight: bold;
+	color: #00A289;
 }
 
 h1 {
@@ -130,28 +118,8 @@ article h1 {
   font-size: 35pt;
 }
 
-.selecionado-home, .selecionado-home:hover, .indexgrid a:hover {
-  color: #00A289;
-  font-weight: bold;
-}
-
-.selecionado-blog, .selecionado-blog:hover {
-  color: lightcoral;
-  font-weight: bold;
-}
-
-.selecionado-tex, .selecionado-tex:hover, .gridfour a:hover {
-  color: lightskyblue;
-  font-weight: bold;
-}
-
-.selecionado-start, .selecionado-start:hover, .gridtres a:hover {
-  color: lightseagreen;
-  font-weight: bold;
-}
-
-.selecionado-contato {
-  color: maroon;
+.selecionado {
+  color: #00A289 !important;
   font-weight: bold;
 }
 
