@@ -13,9 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Blog Luís
+title: Página do Luís
 email: luisfcdarcadia@gmail.com
-description: Blog de Luís Fernando Campos D'Arcadia feito com Jekyll, com hosting no github.
+description: Blog de Luís Fernando feito com Jekyll hosting no Github.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: luigi-finando 
@@ -23,6 +23,8 @@ github_username: luigi-finando
 # Build settings
 markdown: kramdown
 theme: minima
+disqus:
+        shortname: luisfcdarcadia
 plugins:
   - jekyll-feed
 
