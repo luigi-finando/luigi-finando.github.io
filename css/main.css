@@ -129,7 +129,7 @@ article header {
   background-color: #121212;
 }
 
-article p {
+article p, h3 {
   font-size: 24pt;
 }
 
@@ -147,7 +147,7 @@ hr {
   font-weight: bold;
 }
 
-.selecionado-blog, .selecionado-blog:hover {
+.selecionado-blog, .selecionado-blog:hover, article a:hover {
   color: lightcoral;
   font-weight: bold;
 }
@@ -300,11 +300,11 @@ pre {
     font-size: 16pt;
   }
 
-  h1, h2, .post-title p {
+  h1, h2, .post-title p, h2 a {
     font-size: 30pt;
   }
   
-  .highlighter-rouge, .highlight, code p {
+  .highlighter-rouge, .highlight, code p, h3 {
     font-size: 14pt;
   }
   

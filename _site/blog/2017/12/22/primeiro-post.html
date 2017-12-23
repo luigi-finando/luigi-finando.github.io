@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 	<base target="_self">
-  <title>Jekyll e o *markdown*</title>
+  <title>Jekyll e o _markdown_</title>
 
 <header>
   <nav>
@@ -39,13 +39,14 @@
   </div>
 
   <div class="post-content" itemprop="articleBody">
-    <h2 id="sobre-o-markdown">Sobre o <em>markdown</em></h2>
+    
+<h2 id="sobre-o-markdown">Sobre o <em>markdown</em></h2>
 
-<p><code class="highlighter-rouge">Markdown</code> é uma <em>markup language</em>, ou seja, como <em>html</em> e <em>LaTeX</em>, ou seja, a escrita do texto ocorre primeiramente em formato <em>plain text</em>. A formatação em si se dá a partir de marcações convencionadas, quando o código-fonte é compilado em um estágio posterior.</p>
+<p><a href="https://daringfireball.net/projects/markdown/">Markdown</a> é uma <em>markup language</em> como <em>html</em> e <em>LaTeX</em>, ou seja, a escrita ocorre primeiramente em formato <em>plain text</em>. A formatação se dá a partir de marcações convencionadas, quando o código-fonte é compilado.</p>
 
 <p>A convenção para a criação de um parágrafo é deixar uma linha em branco, por exemplo. A fonte destes mesmos parágrafos tem a seguinte aparência:</p>
 
-<pre><code class="language-plain-text">`Markdown` é uma *markup language*, ou seja, como *html* e *LaTeX*, ela exige que a escrita do texto seja em formato *plain text*. A formatação em si ocorre a partir de marcações convencionadas, quando o código-fonte é compilado em um estágio posterior.
+<pre><code class="language-plain-text">[Markdown][Markdown] é uma *markup language*, ou seja, como *html* e *LaTeX*, ela exige que a escrita do texto seja em formato *plain text*. A formatação em si ocorre a partir de marcações convencionadas, quando o código-fonte é compilado em um estágio posterior.
 
 A convenção para a criação de um parágrafo é deixar uma linha em branco, por exemplo. A fonte destes mesmos parágrafos tem a seguinte aparência:
 </code></pre>
@@ -66,14 +67,15 @@ A convenção para a criação de um parágrafo é deixar uma linha em branco, p
 
 <p>Marcações como <strong>negrito</strong> e <em>itálico</em> são possíveis com o uso de arteriscos, e a versão do <code class="highlighter-rouge">markdown</code> oferecida pelo Github ainda permite o texto <del>tachado</del>.</p>
 
-<h2 id="a-plataforma-jekyll">A plataforma Jekyll</h2>
+<h2 id="a-plataforma-jekyll-e-o-github-pages">A plataforma <a href="https://jekyllrb.com/docs/home">Jekyll</a> e o <a href="https://pages.github.com">Github Pages</a></h2>
 
-<p>Essa plataforma, baseada em Ruby, Liquid e se utilizando do <em>markdown</em>, é uma ferramenta para a geração de <em>websites</em> estáticos.</p>
+<p>Essa plataforma, instalada como uma <a href="https://en.wikipedia.org/wiki/RubyGems">Ruby Gem</a>, é uma combinação de <a href="https://shopify.github.io/liquid/">Liquid</a> e <a href="https://daringfireball.net/projects/markdown/">Markdown</a>, sendo uma ferramenta para a geração de <em>websites</em> estáticos.</p>
 
-<p>A integração com <em>markdown</em> é essencial pois permite, juntamente com a sintaxe Liquid e o uso de <em>Frontmatters YAML</em> a automatização da geração de html a partir de templates e pedaços de código. A geração deste blog, por exemplo, acontece a partir de funções e <em>loops</em> simples.</p>
+<p>A integração com <em>markdown</em> é essencial pois permite que a sintaxe Liquid e o uso de <em>Frontmatters <a href="yaml.org">YAML</a></em> automatizem a geração de <em>htmls</em> a partir de templates e pedaços de código.</p>
 
-<p>Uma série de templates e layouts <em>html</em>, distribuídos em uma rede de pastas no diretório <em>root</em> do site, a partir de um arquivo <code class="highlighter-rouge">_config.yml</code>, são concatenados com a sintaxe Liquid, e a plataforma Jekyll proporciona a compilação de arquivos <code class="highlighter-rouge">.markdown</code> para gerar os textos em si.</p>
+<p>Ao executar <code class="highlighter-rouge">jekyll new [nome da página]</code>, Jekyll produz um ambiente de desenvolvimento com uma estrutura de pastas e o arquivo <code class="highlighter-rouge">_config.yml</code>, permitindo ao usuário inserir criar layout e trechos de HTML reutilizáveis por meio da sintaxe <em>Liquid</em>. Como qualquer documento em HTML, é possível que o usuário crie estilos no formato CSS. A pasta <code class="highlighter-rouge">_posts</code> aceita arquivos no formato <em>markdown</em>, convertendo-os para HTML automaticamente no momento da construção do <em>site</em>.</p>
 
+<p>A plataforma <a href="https://pages.github.com">Github Pages</a> oferece a compilação automática do código do Jekyll, bastando sincronizar os arquivos fonte no repositório. A geração deste <em>blog</em> é feita quando o código fonte é enviado ao <a href="https://www.github.com/luigi-finando">meu repositório</a> no <a href="https://www.github.com">Github</a>.</p>
 
   </div>
 
