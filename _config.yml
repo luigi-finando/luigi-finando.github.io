@@ -16,8 +16,8 @@
 title: Página do Luís
 email: luisfcdarcadia@gmail.com
 description: Blog de Luís Fernando feito com Jekyll hosting no Github.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://luigi-finando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: luigi-finando 
 
 # Build settings
