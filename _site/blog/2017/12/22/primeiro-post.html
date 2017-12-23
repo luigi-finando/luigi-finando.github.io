@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
 	<base target="_self">
-  <title>Primeiro Post</title>
+  <title>Jekyll e o *markdown*</title>
 
 <header>
   <nav>
@@ -26,24 +26,53 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="post-header">
-    <h1 class="post-title" itemprop="name headline">Primeiro Post</h1>
+    <h1 class="post-title" itemprop="name headline"><p>Jekyll e o <em>markdown</em></p>
+</h1>
     <p class="post-meta">
       <time datetime="2017-12-22T15:35:00-02:00" itemprop="datePublished">
         
-        Dec 22, 2017
+        em 22/12/2017
       </time>
       
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Luís</span></span>
+        • por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Luís</span></span>
       </p>
   </div>
 
   <div class="post-content" itemprop="articleBody">
-    <h1 id="post-teste">Post teste</h1>
+    <h2 id="sobre-o-markdown">Sobre o <em>markdown</em></h2>
 
-<p>Esse post é um teste do uso do <code class="highlighter-rouge">markdown</code>.</p>
+<p><code class="highlighter-rouge">Markdown</code> é uma <em>markup language</em>, ou seja, como <em>html</em> e <em>LaTeX</em>, ou seja, a escrita do texto ocorre primeiramente em formato <em>plain text</em>. A formatação em si se dá a partir de marcações convencionadas, quando o código-fonte é compilado em um estágio posterior.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>teste
+<p>A convenção para a criação de um parágrafo é deixar uma linha em branco, por exemplo. A fonte destes mesmos parágrafos tem a seguinte aparência:</p>
+
+<pre><code class="language-plain-text">`Markdown` é uma *markup language*, ou seja, como *html* e *LaTeX*, ela exige que a escrita do texto seja em formato *plain text*. A formatação em si ocorre a partir de marcações convencionadas, quando o código-fonte é compilado em um estágio posterior.
+
+A convenção para a criação de um parágrafo é deixar uma linha em branco, por exemplo. A fonte destes mesmos parágrafos tem a seguinte aparência:
+</code></pre>
+
+<p>Títulos são criados usando o sinal ` # ` e subtítulos são iterações do mesmo sinal repetido, com os subníveis crescendo na mesma medida:</p>
+<pre><code class="language-plain-text">## Subtítulo
+</code></pre>
+
+<blockquote>
+  <h2 id="subtítulo">Subtítulo</h2>
+</blockquote>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>### Subsubtítulo
 </code></pre></div></div>
+<blockquote>
+  <h3 id="subsubtítulo">Subsubtítulo</h3>
+</blockquote>
+
+<p>Marcações como <strong>negrito</strong> e <em>itálico</em> são possíveis com o uso de arteriscos, e a versão do <code class="highlighter-rouge">markdown</code> oferecida pelo Github ainda permite o texto <del>tachado</del>.</p>
+
+<h2 id="a-plataforma-jekyll">A plataforma Jekyll</h2>
+
+<p>Essa plataforma, baseada em Ruby, Liquid e se utilizando do <em>markdown</em>, é uma ferramenta para a geração de <em>websites</em> estáticos.</p>
+
+<p>A integração com <em>markdown</em> é essencial pois permite, juntamente com a sintaxe Liquid e o uso de <em>Frontmatters YAML</em> a automatização da geração de html a partir de templates e pedaços de código. A geração deste blog, por exemplo, acontece a partir de funções e <em>loops</em> simples.</p>
+
+<p>Uma série de templates e layouts <em>html</em>, distribuídos em uma rede de pastas no diretório <em>root</em> do site, a partir de um arquivo <code class="highlighter-rouge">_config.yml</code>, são concatenados com a sintaxe Liquid, e a plataforma Jekyll proporciona a compilação de arquivos <code class="highlighter-rouge">.markdown</code> para gerar os textos em si.</p>
 
 
   </div>
@@ -57,7 +86,7 @@
     <div id="disqus_thread"></div>
 <script>
     var disqus_config = function () {
-      this.page.url = 'https://luigi-finando.github.io/blog/2017/12/22/primeiro-post.html';
+      this.page.url = 'http://localhost:4000/blog/2017/12/22/primeiro-post.html';
       this.page.identifier = PAGE_IDENTIFIER;
     };
     (function() {
