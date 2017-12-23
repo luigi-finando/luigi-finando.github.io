@@ -274,20 +274,19 @@ article h1 {
 
 @media(max-width: 800px){
 
-  h1, h2, input, a, 
+  input, a, 
   #bio p, #bio a, #bio h2, 
   header a, textarea {
-    font-size: 12pt;
+    font-size: 15pt;
   }
 
+  h1, h2 {
+    font-size: 20pt;
+  }
+  
   article a, article p, 
   .highlighter-rouge, .highlight {
     font-size: 14pt;
-  }
-  
-  article {
-    display: block;
-    padding: 0;
   }
   
   footer a, footer p {
@@ -298,6 +297,14 @@ article h1 {
     grid-template-columns: 100%;
   }
 
+  .gridtres {
+    grid-template-columns: 1fr;
+  }
+  
+  .gridtres a {
+    font-size: 20pt;
+  }
+  
   .gridfour {
     grid-template-columns: 50% 50%;
     grid-column-gap: 0;
@@ -313,7 +320,7 @@ article h1 {
 
   nav a {
     padding: 0;
-    font-size: 14pt;
+    font-size: 20pt;
   }
   
   article {
