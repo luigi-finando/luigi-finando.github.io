@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-23T04:54:01-02:00</updated><id>http://localhost:4000/</id><title type="html">Página do Luís</title><subtitle>Blog de Luís Fernando feito com Jekyll hosting no Github.</subtitle><entry><title type="html">Primeiro Post</title><link href="http://localhost:4000/blog/2017/12/22/primeiro-post.html" rel="alternate" type="text/html" title="Primeiro Post" /><published>2017-12-22T15:35:00-02:00</published><updated>2017-12-22T15:35:00-02:00</updated><id>http://localhost:4000/blog/2017/12/22/primeiro-post</id><content type="html" xml:base="http://localhost:4000/blog/2017/12/22/primeiro-post.html">&lt;h1 id=&quot;post-teste&quot;&gt;Post teste&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-23T05:39:23-02:00</updated><id>http://localhost:4000/</id><title type="html">Página do Luís</title><subtitle>Blog de Luís Fernando feito com Jekyll hosting no Github.</subtitle><entry><title type="html">Sobre o VIM</title><link href="http://localhost:4000/rascunho/tutoriais/2017/12/23/sobre-o-vim.html" rel="alternate" type="text/html" title="Sobre o VIM" /><published>2017-12-23T05:00:00-02:00</published><updated>2017-12-23T05:00:00-02:00</updated><id>http://localhost:4000/rascunho/tutoriais/2017/12/23/sobre-o-vim</id><content type="html" xml:base="http://localhost:4000/rascunho/tutoriais/2017/12/23/sobre-o-vim.html">&lt;h1 id=&quot;vim-editor-modal&quot;&gt;Vim: editor modal&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;funciona em modos&lt;/li&gt;
+  &lt;li&gt;normal&lt;/li&gt;
+  &lt;li&gt;inserção&lt;/li&gt;
+  &lt;li&gt;visual&lt;/li&gt;
+  &lt;li&gt;comando&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modo-comando&quot;&gt;modo comando&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;acesso com “:” durante &lt;em&gt;modo normal&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;é a &lt;em&gt;barra de menu&lt;/em&gt; do vim, juntamente com o &lt;em&gt;vimrc&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;comando &lt;em&gt;w&lt;/em&gt; salva o texto (write)&lt;/li&gt;
+      &lt;li&gt;comando &lt;em&gt;q&lt;/em&gt; sai do editor (quit)&lt;/li&gt;
+      &lt;li&gt;comando &lt;em&gt;e&lt;/em&gt; cria/abre arquivo novo&lt;/li&gt;
+      &lt;li&gt;comando &lt;em&gt;h&lt;/em&gt; oferece ajuda sobre algum comando&lt;/li&gt;
+      &lt;li&gt;comando &lt;em&gt;!&lt;/em&gt; pode executar comandos do shell&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modo-normal&quot;&gt;modo normal&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;modo para movimentação
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;      k
+ h -- | -- l
+      j
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;w&lt;/em&gt; próxima palavra&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;b&lt;/em&gt; palavra anterior&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;f&lt;/em&gt; movimenta até o caracter na linhas&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;F&lt;/em&gt; movimenta até caracter antes na linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;{&lt;/em&gt; e &lt;em&gt;}&lt;/em&gt; para blocos de texto&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;gg&lt;/em&gt; início do arquivo&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;G&lt;/em&gt; fim do arquivo&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;0&lt;/em&gt; primeiro caracter da linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;$&lt;/em&gt; até o último caracter da linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Ctrl+y&lt;/em&gt; e &lt;em&gt;Ctrl+e&lt;/em&gt; mover a tela&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;modo para edição do texto
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;d&lt;/em&gt; deletar conforme o argumento&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;dd&lt;/em&gt; - deleta a linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;y&lt;/em&gt; usado para copiar (yank)&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;yy&lt;/em&gt; copiar a linha toda&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;p&lt;/em&gt; usado par colar (paste), etc.&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;pp&lt;/em&gt; cola a linha inteira&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;comandos adicionais
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;x&lt;/em&gt; deleta um caracter sob o cursor&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;r&lt;/em&gt; substitui o caracter sob o cursor&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;~&lt;/em&gt; altera o caracter em maiúsculo/minúsculo&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Ctrl+a&lt;/em&gt; incrementa o número (1)&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Ctrl+x&lt;/em&gt; decrementa o número (11)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;comandos seguem a &lt;em&gt;sintaxe&lt;/em&gt; do vim&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;(número)(ação)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Frase para exemplos que legal haha&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;modo-de-inserção&quot;&gt;modo de inserção&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;usado para escrever&lt;/li&gt;
+  &lt;li&gt;i para entrar em inserção
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;a&lt;/em&gt; entra em inserção depois do caracter&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;I&lt;/em&gt; entra em inserção no início da linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;A&lt;/em&gt; entra em inserção no final da linha&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;s&lt;/em&gt; deleta um caracter sob o cursor e entra em inserção&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;S&lt;/em&gt; deleta a linha e entra em inserção&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;c&lt;/em&gt; deleta conforme o argumento o entra em inserção&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;o&lt;/em&gt; cria uma linha abaixo e entra em inserção&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;O&lt;/em&gt; cria uma linha acima e entra em inserção&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;ESC&lt;/em&gt; para sair da inserção&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modo-visual&quot;&gt;modo visual&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;seleciona texto em formatos que o modo normal não permita
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;v&lt;/em&gt; para entrar em modo visual&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;V&lt;/em&gt; para modo visual line&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Ctrl+v&lt;/em&gt; modo visual block&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;##modo de busca&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;/&lt;/em&gt; ou &lt;em&gt;?&lt;/em&gt; em modo normal para acessar&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;n&lt;/em&gt; ou &lt;em&gt;N&lt;/em&gt; para percorrer arquivo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;vantagens-do-vim&quot;&gt;vantagens do vim&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;gratuito e de código aberto&lt;/li&gt;
+  &lt;li&gt;plugins desde linguagem de programação a Tex, e outro formatos plain text&lt;/li&gt;
+  &lt;li&gt;escrita em &lt;em&gt;plain text&lt;/em&gt;, ou seja, sem distrações &lt;em&gt;sem distrações&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;documentos em plain text são imunes às mudanças nos  editores de texto&lt;/li&gt;
+  &lt;li&gt;vim é 100% configurável&lt;/li&gt;
+  &lt;li&gt;macros para edição
+    &lt;ul&gt;
+      &lt;li&gt;q q A , Esc k q&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;facilita automação para converter documentos&lt;/li&gt;
+  &lt;li&gt;importante na atualidade, em que textos são distribuídos em formato digital e formatação pode variar&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Luís</name></author><summary type="html">Vim: editor modal</summary></entry><entry><title type="html">Primeiro Post</title><link href="http://localhost:4000/blog/2017/12/22/primeiro-post.html" rel="alternate" type="text/html" title="Primeiro Post" /><published>2017-12-22T15:35:00-02:00</published><updated>2017-12-22T15:35:00-02:00</updated><id>http://localhost:4000/blog/2017/12/22/primeiro-post</id><content type="html" xml:base="http://localhost:4000/blog/2017/12/22/primeiro-post.html">&lt;h1 id=&quot;post-teste&quot;&gt;Post teste&lt;/h1&gt;
 
 &lt;p&gt;Esse post é um teste do uso do &lt;code class=&quot;highlighter-rouge&quot;&gt;markdown&lt;/code&gt;.&lt;/p&gt;
 

@@ -141,6 +141,10 @@ article h1 {
   font-size: 35pt;
 }
 
+hr {
+  width: 100%;
+}
+
 .selecionado-home, .selecionado-home:hover, .indexgrid a:hover {
   color: #00A289;
   font-weight: bold;
@@ -256,6 +260,11 @@ article h1 {
   padding: 0em 3em 3em 3em;
   margin: 0;
   display: inline;
+}
+
+div#disqus {
+  padding-top: 3em;
+  border-top: solid;
 }
 
 #photo {
