@@ -128,7 +128,7 @@ article p, h3 {
   font-size: 24pt;
 }
 
-article h1, .post-content h2 {
+article h1, .post-content h2, article h2 a {
   font-size: 35pt;
   text-align: left;
 }
