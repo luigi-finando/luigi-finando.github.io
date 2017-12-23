@@ -1,9 +1,9 @@
 <header>
   <nav>
-    <a class="{% if page.title == 'Minha página' %}selecionado-home{% endif %}" href="/index.html"> Início </a>
+    <a class="{% if page.title == 'Minha página' %}selecionado-home{% endif %}" href="/"> Início </a>
     <a class="{% if page.layout == 'post' or page.layout == 'blog-home' %}selecionado-blog{% endif %}" href="/blog"> Blog </a>
-    <a class="{% if page.url == '/startpage.html' %}selecionado-start{% endif %}" href="/startpage.html"> Startpage </a>
-    <a class="{% if page.url == '/tex_docs.html' %}selecionado-tex{% endif %}" href="/tex_docs.html"> Latex </a>
-    <a class="{% if page.url == '/contato.html' %}selecionado-contato{% endif %}" href="/contato.html"> Contato </a>
+    <a class="{% if page.title == 'Start Page' %}selecionado-start{% endif %}" href="/startpage"> Startpage </a>
+    <a class="{% if page.title == 'LaTeX - Links Úteis' %}selecionado-tex{% endif %}" href="/latex"> Latex </a>
+    <a class="{% if page.title == 'Contato' %}selecionado-contato{% endif %}" href="/contato"> Contato </a>
   </nav>
 </header>
