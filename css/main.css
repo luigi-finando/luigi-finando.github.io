@@ -245,10 +245,11 @@ hr {
 
 .home h1 {
   text-align: left;
-  font-size: 40pt;
+  font-size: 38pt;
+  color: lightcoral;
 }
 
-.home p, .home a, .home li, .home h2 {
+.home p, .home a, .home li, .home h2, home li {
   text-align: left;
 }
 
@@ -257,7 +258,7 @@ hr {
 }
 
 .home h2{
-  padding: 0em 3em 3em 3em;
+  padding: 0;
   margin: 0;
   display: inline;
 }
