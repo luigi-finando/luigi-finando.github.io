@@ -80,11 +80,6 @@ a, p {
   text-align:center;
 }
 
-a:hover {
-	color: darkred;
-  font-weight: bold;
-}
-
 h1 {
 	color: #ffffd7;
 	font-size: 28pt;
@@ -142,27 +137,27 @@ hr {
   width: 100%;
 }
 
-.selecionado-home, .selecionado-home:hover, .indexgrid a:hover {
+.selecionado-home, .selecionado-home:hover, .indexgrid a:hover, #nav-inicio:hover {
   color: #00A289;
   font-weight: bold;
 }
 
-.selecionado-blog, .selecionado-blog:hover, article a:hover {
+.selecionado-blog, .selecionado-blog:hover, article a:hover, #nav-blog:hover{
   color: lightcoral;
   font-weight: bold;
 }
 
-.selecionado-tex, .selecionado-tex:hover, .gridfour a:hover {
+.selecionado-tex, .selecionado-tex:hover, .gridfour a:hover, #nav-latex:hover {
   color: darkolivegreen;
   font-weight: bold;
 }
 
-.selecionado-start, .selecionado-start:hover, .gridtres a:hover {
+.selecionado-start, .selecionado-start:hover, .gridtres a:hover, #nav-start:hover {
   color: lightseagreen;
   font-weight: bold;
 }
 
-.selecionado-contato {
+.selecionado-contato, #nav-contato:hover {
   color: maroon;
   font-weight: bold;
 }
