@@ -1,0 +1,14 @@
+.gridfour {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 2em;
+}
+
+@media(max-width: 800px){
+
+  .gridfour {
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;
+  }
+
+}

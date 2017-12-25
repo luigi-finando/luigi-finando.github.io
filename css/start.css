@@ -1,0 +1,50 @@
+
+.gridtres {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 2em;
+}
+
+.gridtres a {
+  font-size: 25pt;
+}
+
+@media(max-width: 800px){
+
+  .gridtres {
+    grid-template-columns: 1fr;
+  }
+  
+  .gridtres a {
+    font-size: 25pt;
+  }
+  
+  .selecionado-start {
+   display:none;
+ }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:0;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a {
+    padding: 0;
+    font-size: 22pt;
+  }
+  
+  article {
+    padding: 0;
+  }
+
+}
+
+@media (max-height: 400px){
+  
+  footer{
+    display: none;
+  }
+}

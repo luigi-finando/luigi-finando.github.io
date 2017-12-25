@@ -1,0 +1,49 @@
+img {
+  padding: 0;
+  width: 70%;
+  line-height: 100%;
+}
+
+.indexgrid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-auto-columns: minmax(auto, 70px);
+  align-items: center;
+}
+
+.indexgrid > div {
+  padding: 2em;
+  grid-auto-rows: minmax(100%, auto);
+}
+
+.griddois {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em;
+}
+
+#photo {
+  text-align: center;
+}
+
+#bio > div {
+  padding: 2em;
+  grid-auto-rows:100%;
+}
+
+#biolinks {
+  text-align: center;
+  border: solid white;
+}
+
+@media(max-width: 800px){
+
+  #bio p, #bio a, #bio h2 {
+    font-size: 16pt;
+  }
+
+  .indexgrid {
+    grid-template-columns: 100%;
+  }
+
+}

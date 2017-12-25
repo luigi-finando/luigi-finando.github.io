@@ -5,9 +5,27 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/main.css"/>
+  {% if page.title == 'Contato' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/contato.css"/>
+  {% endif %}
+  {% if page.title == 'Minha página' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/inicio.css"/>
+  {% endif %}
+  {% if page.url == '/latex/' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/latex.css"/>
+  {% endif %}
+  {% if page.layout == 'blog-home' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/blog-home.css"/>
+  {% endif %}
+  {% if page.url == '/startpage/' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/start.css"/>
+  {% endif %}
+  {% if page.layout == 'post' %}
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/blog-post.css"/>
+  {% endif %}
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="{{baseurl}}/css/main.css"/>
 	<base target="_self">
   <title>{{ page.title }}</title>
 
