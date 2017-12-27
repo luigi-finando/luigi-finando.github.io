@@ -11,13 +11,16 @@ article header {
   display: inline;
   background-color: #121212;
 }
+article p {
+  text-size: 18pt;
+} 
 
-article p, h3, article a  {
-  font-size: 24pt;
+h3, article a  {
+  font-size: 19pt;
 }
 
 article h1, .post-content h2, article h2{
-  font-size: 35pt;
+  font-size: 22pt;
   text-align: left;
 }
 

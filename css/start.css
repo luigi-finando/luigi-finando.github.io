@@ -6,7 +6,7 @@
 }
 
 .gridtres a {
-  font-size: 25pt;
+  font-size: 23pt;
 }
 
 @media(max-width: 800px){
@@ -16,7 +16,7 @@
   }
   
   .gridtres a {
-    font-size: 25pt;
+    font-size: 23pt;
   }
   
   .selecionado-start {
@@ -33,7 +33,7 @@
 
   nav a {
     padding: 0;
-    font-size: 22pt;
+    font-size: 20pt;
   }
   
   article {

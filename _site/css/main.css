@@ -6,6 +6,7 @@ html {
 
 body {
   margin-top: 6%;
+  margin-bottom: 6%;
   display: grid;
 	grid-template-columns: 1fr;
   grid-gap: 3em;
@@ -152,7 +153,7 @@ hr {
   }
 
   h1, h2, .post-title p, h2 a {
-    font-size: 30pt;
+    font-size: 28pt;
   }
   
   footer a, footer p {
@@ -169,7 +170,7 @@ hr {
 
   nav a {
     padding: 0;
-    font-size: 22pt;
+    font-size: 20pt;
   }
   
 }
