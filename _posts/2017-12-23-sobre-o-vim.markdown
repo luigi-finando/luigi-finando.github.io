@@ -17,20 +17,22 @@ categories: rascunho tutoriais blog
 
 *VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar], *vim* não precisa se limitar à programação. 
 Escritores, *bloggers*, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.
-Pessoalmente, utilizo bastante o *vim* como editor LaTeX, tendo extendido o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
+
+Pessoalmente, utilizei o vim para editar arquivos de configuração do Linux na linha de comando. Após o choque inicial, depois de passar pelo utilizo bastante o *vim* como editor LaTeX, tendo extendido o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
 
 ![limegif](https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966)
-*Demonstração do limelight no [repositório do desenvolvedor Junegunn][limelight]*
+*Demonstração do plugin limelight no [repositório do desenvolvedor Junegunn][limelight]*
 
 
 Originalmente criado para o sistema operacional [Unix][unix], *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: *cada programa deve cumprir somente uma função e cumpri-la bem*.
 Por esse mesmo motivo (e licença por repetir um clichê) *vim* é ao mesmo tempo limitado e poderosíssimo.
 
 Diferente de editores de texto WYSIWYG, *vim* é um editor que trabalha somente com *plain text*.
-O programa não é capaz de manipular um texto em sua tipografia, deixando essa função para linguagens *markup* ou outros programas.
-Para a redação e edição do texto em si, vim é extremamente eficiente.
+O programa não é capaz de preparar um texto para impressão.
+Não é capaz de criar itálicos, negritos, rodapés, números de página, etc. Essa é a função de programas especializados e das linguagens *markup*.
 
-Sua relação com computadores mais antigos ainda é responsável por essa eficiência. Tendo em mente um usuário sem mouse, é possível acessar todas as funcionalidades do programa sem afastar as mãos do *home row* do teclado, algo que por si só torna o trabalho com o texto mais rápido. 
+Para a redação e edição do texto em si, o processo de inserir, apagar e editar carateres e palavras, o *vim* é extremamente eficiente.
+Sua relação com computadores mais antigos é também responsável por essa eficiência. Tendo em mente um usuário sem mouse. O programa funciona do modo que é possível acessar todas as suas funcionalidades sem afastar as mãos do *home row* do teclado, algo que por si só torna o trabalho com o texto mais rápido. 
 
 Ainda grande parte da eficiência do *vim* é também fruto de sua maior peculiaridade: a modalidade.
 
