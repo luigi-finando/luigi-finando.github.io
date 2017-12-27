@@ -19,10 +19,6 @@
     font-size: 23pt;
   }
   
-  .selecionado-start {
-   display:none;
- }
-
   nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
