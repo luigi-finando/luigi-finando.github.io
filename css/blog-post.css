@@ -11,9 +11,6 @@ article header {
   display: inline;
   background-color: #121212;
 }
-article p {
-  text-size: 18pt;
-} 
 
 h3, article a  {
   font-size: 19pt;
@@ -57,16 +54,39 @@ pre {
   padding: 3px;
 }
 
+p img, img + em, p img + em > a {
+  display: block;
+  text-align: center !important;
+  font-size: 10pt;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  text-align: left !important;
+  list-style: outside !important;
+  font-size: 12pt;
+  margin: auto;
+}
+
 @media(max-width: 800px){
 
   article a, article p {
     font-size: 16pt;
   }
 
-  .post-title p, h2   article {
+  .post {
+    margin: auto;
+    width: 80%;
+  }
+  img {
+    width: 80%;
+  }
+  .post-title p, h2 {
     padding: 0;
   }
-a {
+  
+  a {
     font-size: 30pt;
   }
   

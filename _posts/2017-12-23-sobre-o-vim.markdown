@@ -1,107 +1,56 @@
 ---
 layout: post
+date: 2017-12-25 05:00:00 -0200
 title: Sobre o VIM
 author: Luís
-categories: rascunho tutoriais
-date: 2017-12-23 05:00:00 -0200
+comments: true
+categories: rascunho tutoriais blog
 ---
+[vi]:https://pt.wikipedia.org/wiki/Vi
+[BramMoolenar]:http://www.moolenaar.net/
+[unix]:https://pt.wikipedia.org/wiki/Unix
+[goyo]:https://github.com/junegunn/goyo.vim
+[limelight]:https://github.com/junegunn/limelight.vim
+[limegif]:https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966
 
-# Vim: editor modal
+# Vim 
 
-* funciona em modos
-* normal
-* inserção
-* visual
-* comando
+*VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar], *vim* não precisa se limitar à programação. 
+Escritores, *bloggers*, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.
+Pessoalmente, utilizo bastante o *vim* como editor LaTeX, tendo extendido o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
 
-## modo comando
+![limegif](https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966)
+*Demonstração do limelight no [repositório do desenvolvedor Junegunn][limelight]*
 
-* acesso com ":" durante *modo normal*
-* é a *barra de menu* do vim, juntamente com o *vimrc*
-    * comando *w* salva o texto (write)
-    * comando *q* sai do editor (quit)
-    * comando *e* cria/abre arquivo novo
-    * comando *h* oferece ajuda sobre algum comando
-    * comando *!* pode executar comandos do shell
 
-## modo normal
+Originalmente criado para o sistema operacional [Unix][unix], *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: *cada programa deve cumprir somente uma função e cumpri-la bem*.
+Por esse mesmo motivo (e licença por repetir um clichê) *vim* é ao mesmo tempo limitado e poderosíssimo.
 
-* modo para movimentação
-```
-        k
-   h -- | -- l
-        j
-```
+Diferente de editores de texto WYSIWYG, *vim* é um editor que trabalha somente com *plain text*.
+O programa não é capaz de manipular um texto em sua tipografia, deixando essa função para linguagens *markup* ou outros programas.
+Para a redação e edição do texto em si, vim é extremamente eficiente.
 
-    * *w* próxima palavra
-    * *b* palavra anterior
-    * *f* movimenta até o caracter na linhas
-    * *F* movimenta até caracter antes na linha
-    * *{* e *}* para blocos de texto
-    * *gg* início do arquivo
-    * *G* fim do arquivo
-    * *0* primeiro caracter da linha
-    * *$* até o último caracter da linha
-    * *Ctrl+y* e *Ctrl+e* mover a tela
- 
-* modo para edição do texto
-    * *d* deletar conforme o argumento
-    * *dd* - deleta a linha
-    * *y* usado para copiar (yank)
-    * *yy* copiar a linha toda
-    * *p* usado par colar (paste), etc.
-    * *pp* cola a linha inteira
+Sua relação com computadores mais antigos ainda é responsável por essa eficiência. Tendo em mente um usuário sem mouse, é possível acessar todas as funcionalidades do programa sem afastar as mãos do *home row* do teclado, algo que por si só torna o trabalho com o texto mais rápido. 
 
-* comandos adicionais 
-    * *x* deleta um caracter sob o cursor
-    * *r* substitui o caracter sob o cursor
-    * *~* altera o caracter em maiúsculo/minúsculo
-    * *Ctrl+a* incrementa o número (1)
-    * *Ctrl+x* decrementa o número (11)
-  
-  
-* comandos seguem a *sintaxe* do vim
+Ainda grande parte da eficiência do *vim* é também fruto de sua maior peculiaridade: a modalidade.
 
-  * (número)(ação)
 
-> Frase para exemplos que legal haha
+# Editor Modal
 
-## modo de inserção
+Os modos do editor estão na colinha abaixo:
 
-* usado para escrever
-* i para entrar em inserção
-    * *a* entra em inserção depois do caracter
-    * *I* entra em inserção no início da linha
-    * *A* entra em inserção no final da linha
-    * *s* deleta um caracter sob o cursor e entra em inserção
-    * *S* deleta a linha e entra em inserção
-    * *c* deleta conforme o argumento o entra em inserção
-    * *o* cria uma linha abaixo e entra em inserção
-    * *O* cria uma linha acima e entra em inserção
+>>>
+* **normal** - modo padrão, projetado para a movimentação e edição, acessível com `Esc` ou `Ctrl + [`
+* **inserção** - modo para escrita em si, acessível com `i`
+* **visual** - modo para a seleção visual, ocorrendo por caractere `v`, por linha `V` ou (mais complicado) por bloco `Ctrl + v`
+* **comando** - modo da interface do usuário, com `:`
 
-* *ESC* para sair da inserção
 
-## modo visual
+Quando escrevemos com lápis e papel, nunca nos movimentamos pelo texto com o lápis em contato com a página.
+Com essa mesma lógica *vim* possui modos diferentes para a redação e para a edição de um texto já escrito.
 
-* seleciona texto em formatos que o modo normal não permita
-    * *v* para entrar em modo visual
-    * *V* para modo visual line
-    * *Ctrl+v* modo visual block
+Ao abrir o programa o usuário o encontra em modo normal, que o modo para movimentação e alteração do texto. Para inserir texto, devemos entra no modo de *inserção*, pressionando a tecla `i`. É nesse modo, e somente nesse modo, que o texto é inserido. Pressionamos `Esc` ou `ctrl + [` para retornarmos ao modo normal.
 
-##modo de busca
+Toda a interação do usuário com o programa acontece pelo modo de comando, que é acessado pressionando a tecla `:` a partir do modo normal. Comando como sair `:q` ou `:quit`, salvar (*write*) `:w` são passados por meio da linha de comando. Comando mais importante, no entanto, é a ajuda. Ao inserir `:h r`, por exemplo, o programa informa qual a função da tecla r, o mesmo servindo para todas as teclas da *home row* do teclado.
 
-* */* ou *?* em modo normal para acessar
-* *n* ou *N* para percorrer arquivo
-
-## vantagens do vim
-
-* gratuito e de código aberto
-* plugins desde linguagem de programação a Tex, e outro formatos plain text    
-* escrita em *plain text*, ou seja, sem distrações *sem distrações*
-* documentos em plain text são imunes às mudanças nos  editores de texto
-* vim é 100% configurável
-* macros para edição
-    * q q A , Esc k q
-* facilita automação para converter documentos
-* importante na atualidade, em que textos são distribuídos em formato digital e formatação pode variar
-
+O *vim* ainda apresenta uma série de características interessantes, como a capacidade de concatenar com um sintaxe própria. Pretendo colocar aqui minhas "colinhas" sobre isso.
