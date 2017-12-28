@@ -4,7 +4,7 @@ date: 2017-12-25 05:00:00 -0200
 title: Sobre o VIM
 author: Luís
 comments: true
-categories: rascunho tutoriais blog
+categories: blog
 ---
 [vi]:https://pt.wikipedia.org/wiki/Vi
 [BramMoolenar]:http://www.moolenaar.net/
@@ -15,29 +15,40 @@ categories: rascunho tutoriais blog
 
 # Vim 
 
-*VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar], *vim* não precisa se limitar à programação. 
+*VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar], *vim* não precisa se limitar à programação.
 Escritores, *bloggers*, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.
 
-Pessoalmente, utilizei o vim para editar arquivos de configuração do Linux na linha de comando. Após o choque inicial, depois de passar pelo utilizo bastante o *vim* como editor LaTeX, tendo extendido o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
+Pessoalmente, comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
+Como um usuário novato, o hábito que o Linux tem pedir que se edite arquivos como usuário *root* era trabalhoso.
+Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo era um processo irritante.
+A busca por um editor na linha de comando ofereceu tanto o Nano quanto o Vim, e eu acabei optei pelo último.
+
+Alguns anos depois, o interesse pela linguagem LaTeX abriu mais oportunidades de usar o editor, agora para a minha redação da minha tese de doutorado.
+Melhorei bastante a minha experiência de escrita configurando o máximo que posso o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
 
 ![limegif](https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966)
 *Demonstração do plugin limelight no [repositório do desenvolvedor Junegunn][limelight]*
 
+# Esqueça do mouse
 
-Originalmente criado para o sistema operacional [Unix][unix], *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: *cada programa deve cumprir somente uma função e cumpri-la bem*.
-Por esse mesmo motivo (e licença por repetir um clichê) *vim* é ao mesmo tempo limitado e poderosíssimo.
+Originalmente criado para o sistema operacional [Unix][unix], o *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: *cada programa deve cumprir somente uma função e cumpri-la bem*.
+Por esse mesmo motivo (desculpe a frase de efeito) o *vim* é ao mesmo tempo limitado e sem limites.
 
-Diferente de editores de texto WYSIWYG, *vim* é um editor que trabalha somente com *plain text*.
+Diferente de editores de texto WYSIWYG, ele trabalha somente com *plain text*.
 O programa não é capaz de preparar um texto para impressão.
 Não é capaz de criar itálicos, negritos, rodapés, números de página, etc. Essa é a função de programas especializados e das linguagens *markup*.
 
-Para a redação e edição do texto em si, o processo de inserir, apagar e editar carateres e palavras, o *vim* é extremamente eficiente.
-Sua relação com computadores mais antigos é também responsável por essa eficiência. Tendo em mente um usuário sem mouse. O programa funciona do modo que é possível acessar todas as suas funcionalidades sem afastar as mãos do *home row* do teclado, algo que por si só torna o trabalho com o texto mais rápido. 
+No entanto, para a redação do texto em si, ou seja, o processo de inserir, apagar e alterar caracteres e palavras, o *vim* é extremamente eficiente.
+Sua relação com computadores mais antigos é também responsável por essa eficiência. Tendo em mente um usuário sem mouse.
+Todas as funcionalidades do *vim* são acessíveis sem que seja necessário afastar as mãos do *home row* do teclado. Esse fato por si só torna o trabalho com o texto mais rápido.
 
-Ainda grande parte da eficiência do *vim* é também fruto de sua maior peculiaridade: a modalidade.
+Não bastasse disso, grande parte da eficiência do *vim* é fruto de sua maior peculiaridade: a modalidade.
 
 
 # Editor Modal
+
+Quando escrevemos com lápis e papel, nunca nos movimentamos pelo texto com o lápis em contato com a página quando não estamos escrevendo.
+Com essa mesma lógica o *vim* possui modos diferentes para a redação e para a edição de um texto já escrito.
 
 Os modos do editor estão na colinha abaixo:
 
@@ -48,10 +59,8 @@ Os modos do editor estão na colinha abaixo:
 * **comando** - modo da interface do usuário, com `:`
 
 
-Quando escrevemos com lápis e papel, nunca nos movimentamos pelo texto com o lápis em contato com a página.
-Com essa mesma lógica *vim* possui modos diferentes para a redação e para a edição de um texto já escrito.
-
-Ao abrir o programa o usuário o encontra em modo normal, que o modo para movimentação e alteração do texto. Para inserir texto, devemos entra no modo de *inserção*, pressionando a tecla `i`. É nesse modo, e somente nesse modo, que o texto é inserido. Pressionamos `Esc` ou `ctrl + [` para retornarmos ao modo normal.
+Ao abrir o programa, o usuário se encontra em modo normal, que é o modo para movimentação e alteração do texto.
+Para inserir texto, devemos entra no modo de *inserção*, pressionando a tecla `i`. É nesse modo, e somente nesse modo, que o texto é inserido. Pressionamos `Esc` ou `ctrl + [` para retornarmos ao modo normal.
 
 Toda a interação do usuário com o programa acontece pelo modo de comando, que é acessado pressionando a tecla `:` a partir do modo normal. Comando como sair `:q` ou `:quit`, salvar (*write*) `:w` são passados por meio da linha de comando. Comando mais importante, no entanto, é a ajuda. Ao inserir `:h r`, por exemplo, o programa informa qual a função da tecla r, o mesmo servindo para todas as teclas da *home row* do teclado.
 
