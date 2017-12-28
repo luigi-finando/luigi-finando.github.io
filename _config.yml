@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Página do Luís
+title: Luís - Página Pessoal
 email: luisfcdarcadia@gmail.com
 description: Blog de Luís Fernando feito com Jekyll hosting no Github.
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -25,6 +25,7 @@ markdown: kramdown
 theme: minima
 disqus:
         shortname: luisfcdarcadia
+googleanalytics: UA-111692123-1
 plugins:
          - jekyll-feed
 
