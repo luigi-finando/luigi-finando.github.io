@@ -4,7 +4,7 @@ date: 2017-12-25 05:00:00 -0200
 title: Sobre o VIM
 author: Luís
 comments: true
-categories: blog
+categories: blog rascunho
 ---
 [vi]:https://pt.wikipedia.org/wiki/Vi
 [BramMoolenar]:http://www.moolenaar.net/

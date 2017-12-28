@@ -4,12 +4,11 @@ layout: default
 
 <div class="home">
 
-  {{ content }}
 
   <h1 class="page-heading">Textos Recentes</h1>
   
   <ul class="post-list">
-    {% for post in site.categories.blog  | reversed %}
+    {% for post in site.categories.blog  %}
       <li>
 
         <h2> <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></br></h2>

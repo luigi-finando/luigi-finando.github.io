@@ -1,0 +1,47 @@
+.gridfour {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+  justify-content: center;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+}
+
+#coluna {
+  transition: opacity 0.5s linear;…
+  transition-property:  all;
+  transition-delay: 1s;
+  transition-duration: 1s;
+}
+
+#coluna a, #coluna br {
+  display: none;
+  opacity: 0;
+}
+
+#coluna:hover a, #coluna:hover br {
+  display: inline;
+  font-size: 23pt;
+  opacity: 1;
+}
+
+#coluna:hover h2 {
+  display: none;
+  opacity: 0;
+}
+
+.forms form {
+  padding: 1em;
+  margin: auto;
+}
+@media(max-width: 800px){
+
+  .gridfour {
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 0;
+  }
+
+}

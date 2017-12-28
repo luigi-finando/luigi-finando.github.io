@@ -1,0 +1,28 @@
+.home {
+  display: grid;
+  justify-self:  center;
+  border: solid lightyellow;
+  margin-top: 10%;
+  padding: 3em;
+  width: 70%;
+}
+
+.home h1 {
+  text-align: left;
+  font-size: 38pt;
+  color: lightcoral;
+}
+
+.home p, .home a, .home li, .home h2, home li {
+  text-align: left;
+}
+
+.home p, .home a:hover {
+  color: lightcoral;
+}
+
+.home h2{
+  padding: 0;
+  margin: 0;
+  display: inline;
+}

@@ -1,0 +1,101 @@
+article {
+  width:70%;
+  background-color: #121212;
+  color: #ffffd7;
+  display:grid;
+  padding: 5em;
+  margin: auto;
+}
+
+article header {
+  display: inline;
+  background-color: #121212;
+}
+
+h3, article a  {
+  font-size: 19pt;
+}
+
+article h1, .post-content h2, article h2{
+  font-size: 22pt;
+  text-align: left;
+}
+
+.highlight {
+  background-color: #000000;
+  padding: 0em 1em 0em 1em;
+  font-size: 14pt;
+  transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  white-space: normal;
+}
+
+.language-plain-text {
+  background-color: #000000;
+  font-size: 14pt;
+  white-space:  pre-line;
+}
+
+div#disqus {
+  padding-top: 3em;
+  border-top: solid;
+}
+
+pre {
+  background-color: #000000;
+  padding: 1em 2em 1em 2em;
+}
+
+.highlighter-rouge {
+  color: lightcoral;
+  background-color: #000000;
+  font-size: 20pt;
+  font-family: inherit;
+  padding: 3px;
+}
+
+p img, img + em, p img + em > a {
+  display: block;
+  text-align: center !important;
+  font-size: 10pt;
+  margin: auto;
+  padding: 0;
+}
+
+li {
+  text-align: left !important;
+  list-style: outside !important;
+  font-size: 12pt;
+  margin: auto;
+}
+
+@media(max-width: 800px){
+
+  article a, article p {
+    font-size: 16pt;
+  }
+
+  .post {
+    margin: auto;
+    width: 80%;
+  }
+  img {
+    width: 80%;
+  }
+  .post-title p, h2 {
+    padding: 0;
+  }
+  
+  a {
+    font-size: 30pt;
+  }
+  
+  .highlighter-rouge, .highlight, code p, h3 {
+    font-size: 14pt;
+  }
+  
+  article {
+    padding: 0;
+  }
+
+}
