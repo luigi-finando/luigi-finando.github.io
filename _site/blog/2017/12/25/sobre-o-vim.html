@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" type="text/css" href="/css/blog-post.css"/>
+  
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+	
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans" rel="stylesheet">
+  
+	<base target="_self">
+
+  <title>Sobre o VIM</title>
+
+<header>
+  <nav>
+    <a class="" 
+    
+    id="nav-blog"
+    
+    
+    
+      href="/"> Início </a>
+    <a class="selecionado-blog" 
+    
+    id="nav-blog"
+    
+    
+    
+      href="/blog"> Blog </a>
+    <a class="" 
+    
+    id="nav-blog"
+    
+    
+    
+      href="/startpage"> Startpage </a>
+    <a class="" 
+    
+    id="nav-blog"
+    
+    
+    
+       href="/latex"> Latex </a>
+    
+  </nav>
+</header>
+
+
+<body>
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div class="post-header">
+    <h1 class="post-title" itemprop="name headline"><p>Sobre o VIM</p>
+</h1>
+    <p class="post-meta">
+      <time datetime="2017-12-25T05:00:00-02:00" itemprop="datePublished">
+        
+        em 25/12/2017
+      </time>
+      
+        • por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Luís</span></span>
+      </p>
+  </div>
+
+  <div class="post-content" itemprop="articleBody">
+    
+<h1 id="vim">Vim</h1>
+
+<p><em>VI IMproved</em> é uma extensão do <a href="https://pt.wikipedia.org/wiki/Vi">vi</a> criada pelo programador holandês <a href="http://www.moolenaar.net/">Bram Moolenar</a>, <em>vim</em> não precisa se limitar à programação.
+Escritores, <em>bloggers</em>, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.</p>
+
+<p>Pessoalmente, comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
+Como um usuário novato, o hábito que o Linux tem pedir que se edite arquivos como usuário <em>root</em> era trabalhoso.
+Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo era um processo irritante.
+A busca por um editor na linha de comando ofereceu tanto o Nano quanto o Vim, e eu acabei optei pelo último.</p>
+
+<p>Alguns anos depois, o interesse pela linguagem LaTeX abriu mais oportunidades de usar o editor, agora para a minha redação da minha tese de doutorado.
+Melhorei bastante a minha experiência de escrita configurando o máximo que posso o programa com novos atalhos e plugins como <a href="https://github.com/junegunn/goyo.vim">Goyo</a> e <a href="https://github.com/junegunn/limelight.vim">Limelight</a>.</p>
+
+<p><img src="https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966" alt="limegif" />
+<em>Demonstração do plugin limelight no <a href="https://github.com/junegunn/limelight.vim">repositório do desenvolvedor Junegunn</a></em></p>
+
+<h1 id="esqueça-do-mouse">Esqueça do mouse</h1>
+
+<p>Originalmente criado para o sistema operacional <a href="https://pt.wikipedia.org/wiki/Unix">Unix</a>, o <em>vim</em> procura seguir a “filosofia” que orientou o desenvolvimento daquele sistema: <em>cada programa deve cumprir somente uma função e cumpri-la bem</em>.
+Por esse mesmo motivo (desculpe a frase de efeito) o <em>vim</em> é ao mesmo tempo limitado e sem limites.</p>
+
+<p>Diferente de editores de texto WYSIWYG, ele trabalha somente com <em>plain text</em>.
+O programa não é capaz de preparar um texto para impressão.
+Não é capaz de criar itálicos, negritos, rodapés, números de página, etc. Essa é a função de programas especializados e das linguagens <em>markup</em>.</p>
+
+<p>No entanto, para a redação do texto em si, ou seja, o processo de inserir, apagar e alterar caracteres e palavras, o <em>vim</em> é extremamente eficiente.
+Sua relação com computadores mais antigos é também responsável por essa eficiência. Tendo em mente um usuário sem mouse.
+Todas as funcionalidades do <em>vim</em> são acessíveis sem que seja necessário afastar as mãos do <em>home row</em> do teclado. Esse fato por si só torna o trabalho com o texto mais rápido.</p>
+
+<p>Não bastasse disso, grande parte da eficiência do <em>vim</em> é fruto de sua maior peculiaridade: a modalidade.</p>
+
+<h1 id="editor-modal">Editor Modal</h1>
+
+<p>Quando escrevemos com lápis e papel, nunca nos movimentamos pelo texto com o lápis em contato com a página quando não estamos escrevendo.
+Com essa mesma lógica o <em>vim</em> possui modos diferentes para a redação e para a edição de um texto já escrito.</p>
+
+<p>Os modos do editor estão na colinha abaixo:</p>
+
+<blockquote>
+  <blockquote>
+    <blockquote>
+
+      <ul>
+        <li><strong>normal</strong> - modo padrão, projetado para a movimentação e edição, acessível com <code class="highlighter-rouge">Esc</code> ou <code class="highlighter-rouge">Ctrl + [</code></li>
+        <li><strong>inserção</strong> - modo para escrita em si, acessível com <code class="highlighter-rouge">i</code></li>
+        <li><strong>visual</strong> - modo para a seleção visual, ocorrendo por caractere <code class="highlighter-rouge">v</code>, por linha <code class="highlighter-rouge">V</code> ou (mais complicado) por bloco <code class="highlighter-rouge">Ctrl + v</code></li>
+        <li><strong>comando</strong> - modo da interface do usuário, com <code class="highlighter-rouge">:</code></li>
+      </ul>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<p>Ao abrir o programa, o usuário se encontra em modo normal, que é o modo para movimentação e alteração do texto.
+Para inserir texto, devemos entra no modo de <em>inserção</em>, pressionando a tecla <code class="highlighter-rouge">i</code>. É nesse modo, e somente nesse modo, que o texto é inserido. Pressionamos <code class="highlighter-rouge">Esc</code> ou <code class="highlighter-rouge">ctrl + [</code> para retornarmos ao modo normal.</p>
+
+<p>Toda a interação do usuário com o programa acontece pelo modo de comando, que é acessado pressionando a tecla <code class="highlighter-rouge">:</code> a partir do modo normal. Comando como sair <code class="highlighter-rouge">:q</code> ou <code class="highlighter-rouge">:quit</code>, salvar (<em>write</em>) <code class="highlighter-rouge">:w</code> são passados por meio da linha de comando. Comando mais importante, no entanto, é a ajuda. Ao inserir <code class="highlighter-rouge">:h r</code>, por exemplo, o programa informa qual a função da tecla r, o mesmo servindo para todas as teclas da <em>home row</em> do teclado.</p>
+
+<p>O <em>vim</em> ainda apresenta uma série de características interessantes, como a capacidade de concatenar com um sintaxe própria. Pretendo colocar aqui minhas “colinhas” sobre isso.</p>
+
+  </div>
+
+  </br>
+  <hr>
+  </br>
+
+  <div id="disqus">
+  
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/blog/2017/12/25/sobre-o-vim.html';
+      this.page.identifier = PAGE_IDENTIFIER;
+    };
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://luisfcdarcadia.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+  
+  </div>
+
+</article>
+
+
+</body>
+
+<footer>
+  <p> Não entendo dos copyrights &copy; 2018 </p>
+  <p> Feito com <a href="https://jekyllrb.com/docs/home/"> Jekyll </a> e hospedado em <a href="https://pages.github.com/"> Github Pages <a> | <a href="/contato">Contato</a></p>
+</footer>
+
+
+</html>

@@ -1,0 +1,25 @@
+---
+layout: blog-home
+title: Rascunhos
+permalink: rascunhos
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Rascunhos</h1>
+  
+  <ul class="post-list">
+    {% for post in site.categories.rascunho  %}
+      <li>
+
+        <h2> <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></br></h2>
+        {% assign date_format = site.minima.date_format | default: "%-d/%m/%Y" %}
+        <span class="post-meta"> em {{ post.date | date: date_format }}</span></br></br>
+
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">inscreva-se <a href="{{ "/feed.xml" | relative_url }}">com RSS</a></p>
+
+</div>
