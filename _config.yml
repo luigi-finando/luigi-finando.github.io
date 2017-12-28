@@ -18,7 +18,7 @@ email: luisfcdarcadia@gmail.com
 description: Blog de Luís Fernando feito com Jekyll hosting no Github.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://luigi-finando.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: luigi-finando 
+github_username: luigi-finando
 
 # Build settings
 markdown: kramdown
@@ -26,7 +26,7 @@ theme: minima
 disqus:
         shortname: luisfcdarcadia
 plugins:
-  - jekyll-feed
+         - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
