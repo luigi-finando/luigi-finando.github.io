@@ -2,10 +2,21 @@
 layout: default
 title: LaTeX - Links Úteis
 ---
+<h1> Recursos</h1>
 
+<div class=gridfour> 
+  <div id="coluna">
+  <h2> Sharelatex </h2>
+  {% for recurso in site.data.recursos %}
+  <a href="{{recurso.link}}"> {{recurso.tipo}} </a><br>
+  {% endfor %}
+  </div>
+</div>
+
+  
 <br>
 
-<h1> Manuais de pacotes LaTeX </h1>
+<h1> Manuais de pacotes </h1>
 
 <hr>
 
@@ -51,7 +62,7 @@ title: LaTeX - Links Úteis
 
     <a href="http://mirror.utexas.edu/ctan/macros/latex/contrib/lastpage/lastpage.pdf"> Lastpage </a></br>
     <a href="http://ctan.math.utah.edu/ctan/tex-archive/macros/latex/contrib/glossaries/glossaries-user.pdf"> Glossaries </a></br>
-    <a href="mirrors.ctan.org/macros/latex/contrib/verse/verse.pdf"> Verse </a></br>
+    <a href="http://mirrors.ctan.org/macros/latex/contrib/verse/verse.pdf"> Verse </a></br>
     <a href="http://mirror.utexas.edu/ctan/macros/latex/contrib/hyperref/doc/manual.pdf"> Hyperref </a></br>
 
   </div>
