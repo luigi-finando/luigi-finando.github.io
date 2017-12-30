@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-30T16:17:18-02:00</updated><id>http://localhost:4000/</id><title type="html">Luís - Página Pessoal</title><subtitle>Blog de Luís Fernando feito com Jekyll hosting no Github.</subtitle><entry><title type="html">Latex e Git e Dropbox</title><link href="http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox.html" rel="alternate" type="text/html" title="Latex e Git e Dropbox" /><published>2017-12-28T05:32:35-02:00</published><updated>2017-12-28T05:32:35-02:00</updated><id>http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox</id><content type="html" xml:base="http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox.html">&lt;p&gt;[git][https://git-scm.com/]&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-12-30T17:34:53-02:00</updated><id>http://localhost:4000/</id><title type="html">Luís - Página Pessoal</title><subtitle>Blog de Luís Fernando feito com Jekyll hosting no Github.</subtitle><entry><title type="html">Latex e Git e Dropbox</title><link href="http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox.html" rel="alternate" type="text/html" title="Latex e Git e Dropbox" /><published>2017-12-28T05:32:35-02:00</published><updated>2017-12-28T05:32:35-02:00</updated><id>http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox</id><content type="html" xml:base="http://localhost:4000/rascunho/2017/12/28/latex-git-dropbox.html">&lt;p&gt;[git][https://git-scm.com/]&lt;/p&gt;
 
 &lt;p&gt;Depois de adotar o &lt;em&gt;LaTeX&lt;/em&gt; e o &lt;em&gt;git&lt;/em&gt;, os dias de &lt;code class=&quot;highlighter-rouge&quot;&gt;versãofinal.doc&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;versãofinal2.docx&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;versaofinal-agoravai.doc&lt;/code&gt; acabaram.&lt;/p&gt;
 
@@ -131,28 +131,31 @@ Quanto às flutuações no código, a diferença entre os arquivos de texto é �
   &lt;/li&gt;
   &lt;li&gt;facilita automação para converter documentos&lt;/li&gt;
   &lt;li&gt;importante na atualidade, em que textos são distribuídos em formato digital e formatação pode variar&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>Luís</name></author><summary type="html">modo comando</summary></entry><entry><title type="html">Sobre o VIM</title><link href="http://localhost:4000/blog/2017/12/25/sobre-o-vim.html" rel="alternate" type="text/html" title="Sobre o VIM" /><published>2017-12-25T05:00:00-02:00</published><updated>2017-12-25T05:00:00-02:00</updated><id>http://localhost:4000/blog/2017/12/25/sobre-o-vim</id><content type="html" xml:base="http://localhost:4000/blog/2017/12/25/sobre-o-vim.html">&lt;h1 id=&quot;vim&quot;&gt;Vim&lt;/h1&gt;
+&lt;/ul&gt;</content><author><name>Luís</name></author><summary type="html">modo comando</summary></entry><entry><title type="html">Sobre o VIM</title><link href="http://localhost:4000/blog/2017/12/25/sobre-o-vim.html" rel="alternate" type="text/html" title="Sobre o VIM" /><published>2017-12-25T05:00:00-02:00</published><updated>2017-12-25T05:00:00-02:00</updated><id>http://localhost:4000/blog/2017/12/25/sobre-o-vim</id><content type="html" xml:base="http://localhost:4000/blog/2017/12/25/sobre-o-vim.html">&lt;h1 id=&quot;um-editor-de-textos-na-linha-de-comando&quot;&gt;Um editor de textos na linha de comando&lt;/h1&gt;
 
-&lt;p&gt;&lt;em&gt;VI IMproved&lt;/em&gt; é uma extensão do &lt;a href=&quot;https://pt.wikipedia.org/wiki/Vi&quot;&gt;vi&lt;/a&gt; criada pelo programador holandês &lt;a href=&quot;http://www.moolenaar.net/&quot;&gt;Bram Moolenar&lt;/a&gt;, &lt;em&gt;vim&lt;/em&gt; não precisa se limitar à programação.
-Escritores, &lt;em&gt;bloggers&lt;/em&gt;, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;VI IMproved&lt;/em&gt; é uma extensão do &lt;a href=&quot;https://pt.wikipedia.org/wiki/Vi&quot;&gt;vi&lt;/a&gt; criada pelo programador holandês &lt;a href=&quot;http://www.moolenaar.net/&quot;&gt;Bram Moolenar&lt;/a&gt;. O programa, no entanto, não precisa se limitar à programação.
+Escritores, &lt;em&gt;bloggers&lt;/em&gt;, jornalistas e estudantes fazem uso do programa, havendo uma série de &lt;em&gt;plugins&lt;/em&gt; criados para extender sua funcionalidade nesse sentido.&lt;/p&gt;
 
-&lt;p&gt;Pessoalmente, comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
-Como um usuário novato, o hábito que o Linux tem pedir que se edite arquivos como usuário &lt;em&gt;root&lt;/em&gt; era trabalhoso.
-Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo era um processo irritante.
+&lt;p&gt;Comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
+O hábito que o Linux tem de pedir a edição de arquivos como usuário &lt;em&gt;root&lt;/em&gt; era trabalhoso.
+Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo e chamar o &lt;em&gt;gedit&lt;/em&gt; como root era um pouco irritante.
+Nesse caso a linha de comando é a opção de demanda o menor esforço.
 A busca por um editor na linha de comando ofereceu tanto o Nano quanto o Vim, e eu acabei optei pelo último.&lt;/p&gt;
 
-&lt;p&gt;Alguns anos depois, o interesse pela linguagem LaTeX abriu mais oportunidades de usar o editor, agora para a minha redação da minha tese de doutorado.
-Melhorei bastante a minha experiência de escrita configurando o máximo que posso o programa com novos atalhos e plugins como &lt;a href=&quot;https://github.com/junegunn/goyo.vim&quot;&gt;Goyo&lt;/a&gt; e &lt;a href=&quot;https://github.com/junegunn/limelight.vim&quot;&gt;Limelight&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O hábito de usar o &lt;em&gt;vim&lt;/em&gt; então se mostrou bastante útil quando iniciei meu o interesse pela linguagem &lt;strong&gt;LaTeX&lt;/strong&gt;.
+Essa combinação está se mostrando uma enorme ajuda para a redação da minha tese de doutorado.
+Minha experiência de escrita está mais rápido e o ambiente da escrita, o que é mais importante, não possui distrações. 
+Plugins como &lt;a href=&quot;https://github.com/junegunn/goyo.vim&quot;&gt;Goyo&lt;/a&gt; e &lt;a href=&quot;https://github.com/junegunn/limelight.vim&quot;&gt;Limelight&lt;/a&gt; contribuem ainda mais para isso.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966&quot; alt=&quot;limegif&quot; /&gt;
-&lt;em&gt;Demonstração do plugin limelight no &lt;a href=&quot;https://github.com/junegunn/limelight.vim&quot;&gt;repositório do desenvolvedor Junegunn&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/goyo.gif&quot; alt=&quot;limegif&quot; /&gt;
+&lt;em&gt;Minha rotina com a tese :)&lt;/em&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;esqueça-do-mouse&quot;&gt;Esqueça do mouse&lt;/h1&gt;
+&lt;h1 id=&quot;esquecendo-o-mouse&quot;&gt;Esquecendo o mouse&lt;/h1&gt;
 
-&lt;p&gt;Originalmente criado para o sistema operacional &lt;a href=&quot;https://pt.wikipedia.org/wiki/Unix&quot;&gt;Unix&lt;/a&gt;, o &lt;em&gt;vim&lt;/em&gt; procura seguir a “filosofia” que orientou o desenvolvimento daquele sistema: &lt;em&gt;cada programa deve cumprir somente uma função e cumpri-la bem&lt;/em&gt;.
-Por esse mesmo motivo (desculpe a frase de efeito) o &lt;em&gt;vim&lt;/em&gt; é ao mesmo tempo limitado e sem limites.&lt;/p&gt;
+&lt;p&gt;Originalmente criado para o sistema operacional &lt;a href=&quot;https://pt.wikipedia.org/wiki/Unix&quot;&gt;Unix&lt;/a&gt;, o &lt;em&gt;vim&lt;/em&gt; procura seguir a “filosofia” que orientou o desenvolvimento daquele sistema: &lt;strong&gt;cada programa deve cumprir somente uma função e cumpri-la bem&lt;/strong&gt;.
+Por esse mesmo motivo (olha a frase de efeito) o &lt;em&gt;vim&lt;/em&gt; é ao mesmo tempo limitado e sem limites.&lt;/p&gt;
 
-&lt;p&gt;Diferente de editores de texto WYSIWYG, ele trabalha somente com &lt;em&gt;plain text&lt;/em&gt;.
+&lt;p&gt;Diferente de editores de texto &lt;em&gt;WYSIWYG&lt;/em&gt;, ele trabalha somente com &lt;em&gt;plain text&lt;/em&gt;.
 O programa não é capaz de preparar um texto para impressão.
 Não é capaz de criar itálicos, negritos, rodapés, números de página, etc. Essa é a função de programas especializados e das linguagens &lt;em&gt;markup&lt;/em&gt;.&lt;/p&gt;
 

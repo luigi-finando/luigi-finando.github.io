@@ -13,30 +13,33 @@ categories: blog
 [unix]:https://pt.wikipedia.org/wiki/Unix
 [goyo]:https://github.com/junegunn/goyo.vim
 [limelight]:https://github.com/junegunn/limelight.vim
-[limegif]:https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966
+[limegif]:{{site.baseurl}}/img/goyo.gif
 
-# Vim 
+# Um editor de textos na linha de comando
 
-*VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar], *vim* não precisa se limitar à programação.
-Escritores, *bloggers*, jornalistas e estudantes fazem uso do programa, havendo uma série de plugins criados para extender sua funcionalidade nesse sentido.
+*VI IMproved* é uma extensão do [vi][vi] criada pelo programador holandês [Bram Moolenar][BramMoolenar]. O programa, no entanto, não precisa se limitar à programação.
+Escritores, *bloggers*, jornalistas e estudantes fazem uso do programa, havendo uma série de *plugins* criados para extender sua funcionalidade nesse sentido.
 
-Pessoalmente, comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
-Como um usuário novato, o hábito que o Linux tem pedir que se edite arquivos como usuário *root* era trabalhoso.
-Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo era um processo irritante.
+Comecei utilizando o vim para editar arquivos de configuração do Linux na linha de comando.
+O hábito que o Linux tem de pedir a edição de arquivos como usuário *root* era trabalhoso.
+Abrir um navegador de arquivos, rolar pela pasta até encontrar o arquivo e chamar o *gedit* como root era um pouco irritante.
+Nesse caso a linha de comando é a opção de demanda o menor esforço.
 A busca por um editor na linha de comando ofereceu tanto o Nano quanto o Vim, e eu acabei optei pelo último.
 
-Alguns anos depois, o interesse pela linguagem LaTeX abriu mais oportunidades de usar o editor, agora para a minha redação da minha tese de doutorado.
-Melhorei bastante a minha experiência de escrita configurando o máximo que posso o programa com novos atalhos e plugins como [Goyo][goyo] e [Limelight][limelight].
+O hábito de usar o *vim* então se mostrou bastante útil quando iniciei meu o interesse pela linguagem **LaTeX**.
+Essa combinação está se mostrando uma enorme ajuda para a redação da minha tese de doutorado.
+Minha experiência de escrita está mais rápido e o ambiente da escrita, o que é mais importante, não possui distrações. 
+Plugins como [Goyo][goyo] e [Limelight][limelight] contribuem ainda mais para isso.
 
-![limegif](https://camo.githubusercontent.com/fa4e9321be0b4a565ae84a66bae36e97545c101b/68747470733a2f2f7261772e6769746875622e636f6d2f6a756e6567756e6e2f692f6d61737465722f6c696d656c696768742e676966)
-*Demonstração do plugin limelight no [repositório do desenvolvedor Junegunn][limelight]*
+![limegif]
+*Minha rotina com a tese :)*
 
-# Esqueça do mouse
+# Esquecendo o mouse
 
-Originalmente criado para o sistema operacional [Unix][unix], o *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: *cada programa deve cumprir somente uma função e cumpri-la bem*.
-Por esse mesmo motivo (desculpe a frase de efeito) o *vim* é ao mesmo tempo limitado e sem limites.
+Originalmente criado para o sistema operacional [Unix][unix], o *vim* procura seguir a "filosofia" que orientou o desenvolvimento daquele sistema: **cada programa deve cumprir somente uma função e cumpri-la bem**.
+Por esse mesmo motivo (olha a frase de efeito) o *vim* é ao mesmo tempo limitado e sem limites.
 
-Diferente de editores de texto WYSIWYG, ele trabalha somente com *plain text*.
+Diferente de editores de texto *WYSIWYG*, ele trabalha somente com *plain text*.
 O programa não é capaz de preparar um texto para impressão.
 Não é capaz de criar itálicos, negritos, rodapés, números de página, etc. Essa é a função de programas especializados e das linguagens *markup*.
 
