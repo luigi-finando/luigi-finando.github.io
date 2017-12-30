@@ -7,30 +7,45 @@ article {
   margin: auto;
 }
 
-article header {
-  display: inline;
-  background-color: #121212;
+article h1 p {
+  font-size: 25pt;
+  text-align: center;
 }
 
-h3, article a  {
-  font-size: 17pt;
+article p.article-meta {
+  text-align: right;
 }
 
-article h1, .post-content h2, article h2{
+article h1 {
+  font-size: 22pt;
+  text-align: left;
+}
+
+article h2 {
+  font-size: 21pt;
+  text-align: left;
+}
+
+article h3 {
   font-size: 20pt;
   text-align: left;
 }
 
-.highlight {
+article div.article-content a {
+  font-size: 15pt;
+  font-weight: bold;
+}
+
+article.highlight {
   background-color: #000000;
   padding: 0em 1em 0em 1em;
-  font-size: 14pt;
+  font-size: 15pt;
   transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
   white-space: normal;
 }
 
-.language-plain-text {
+article div.article-content pre code.language-plain-text {
   background-color: #000000;
   font-size: 14pt;
   white-space:  pre-line;
@@ -41,12 +56,7 @@ div#disqus {
   border-top: solid;
 }
 
-pre {
-  background-color: #000000;
-  padding: 1em 2em 1em 2em;
-}
-
-.highlighter-rouge {
+article.highlighter-rouge {
   color: lightcoral;
   background-color: #000000;
   font-size: 20pt;
@@ -54,7 +64,11 @@ pre {
   padding: 3px;
 }
 
-p img, img + em, p img + em > a {
+article img {
+  border: solid #ffffd7;
+}
+
+article p img, article img + em, article p img + em > a {
   display: block;
   text-align: center !important;
   font-size: 10pt;
@@ -75,22 +89,17 @@ li {
     font-size: 14pt;
   }
 
-  .post {
-    margin: auto;
+  article img {
     width: 80%;
   }
-  img {
-    width: 80%;
-  }
-  .post-title p, h2 {
-    padding: 0;
-  }
-  
-  a {
+
+  article a {
     font-size: 25pt;
   }
   
-  .highlighter-rouge, .highlight, code p, h3 {
+ article div.article-content pre code.highlighter-rouge, 
+ article div.article-content pre code.highlight, 
+ article div.article-content pre code p, h3 {
     font-size: 13pt;
   }
   

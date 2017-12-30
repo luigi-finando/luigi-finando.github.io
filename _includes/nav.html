@@ -1,0 +1,12 @@
+
+<header>
+  <nav>
+    <a class="{% if page.cor == 'bio' %}selecionado-home{% endif %}" href="/"> Início </a>
+    <a class="{% if page.layout == 'blog' %}selecionado-blog{% endif %}" href="/blog"> Blog </a>
+    <a class="{% if page.cor == 'start' %}selecionado-start{% endif %}" href="/startpage"> Startpage </a>
+    <a class="{% if page.cor == 'tex' %}selecionado-tex{% endif %}" href="/latex"> Latex </a>
+    {% if page.title == 'Contato' %}
+    <a class="{% if page.cor == 'contato' %}selecionado-contato{% endif %}" href="/contato"> Contato </a>
+    {% endif %}
+  </nav>
+</header>

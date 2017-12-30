@@ -1,4 +1,4 @@
-.home {
+div.blog-home {
   display: grid;
   justify-self:  center;
   border: solid lightyellow;
@@ -7,22 +7,60 @@
   width: 70%;
 }
 
-.home h1 {
+.blog-home h1 {
   text-align: left;
   font-size: 38pt;
   color: lightcoral;
 }
 
-.home p, .home a, .home li, .home h2, home li {
+.blog-home h2 {
   text-align: left;
+  font-size: 20pt;
 }
 
-.home p, .home a:hover {
+.blog-home li,
+.blog-home ul {
+  text-align: left;
+  list-style-type: none !important;
+}
+
+.blog-home p, .blog-home a:hover {
   color: lightcoral;
 }
 
-.home h2{
-  padding: 0;
-  margin: 0;
-  display: inline;
+
+@media(max-width: 800px){
+
+  input, a, header a {
+    font-size: 16pt;
+  }
+
+  h2, .post-title p, h2 a {
+    font-size: 28pt;
+  }
+  
+  footer a, footer p {
+    font-size: 8pt;
+  }
+  
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:0;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav a {
+    padding: 0;
+    font-size: 20pt;
+  }
+  
+}
+
+@media (max-height: 400px){
+  
+  footer{
+    display: none;
+  }
 }

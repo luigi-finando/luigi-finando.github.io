@@ -1,0 +1,19 @@
+footer p, footer a {
+  font-size: 12pt;
+  color: #121212;
+  background-color: inherit;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px;
+  background-color: #ffffd7;
+  color: #121212;
+}
+

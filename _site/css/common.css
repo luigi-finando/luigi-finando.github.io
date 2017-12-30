@@ -1,0 +1,93 @@
+html {
+  margin: auto;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin-top: 80px;
+  margin-bottom: 6%;
+  display: grid;
+	grid-template-columns: 1fr;
+  grid-gap: 3em;
+}
+
+body, a, h1, h2, #lista {
+	background-color: #121212;
+	font-family: "Alegreya Sans", "Open Sans", sans-serif;
+}
+
+input[type="submit"], input {
+	border: 3px solid black;
+	background-color: #ffffd7;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20pt;
+	color: black;
+	width: 90%;
+}
+
+a, p {
+	text-decoration: none;
+	color: #ffffd7;
+	font-size: 18pt;
+  text-align:center;
+}
+
+h1 {
+	color: #ffffd7;
+	text-align: center;
+}
+
+h2 {
+	color: #ffffd7;
+	font-size: 25pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul, li, #coluna {
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+hr {
+  width: 100%;
+}
+
+.selecionado-home, .selecionado-home:hover, .indexgrid a:hover, #nav-inicio:hover {
+  color: #00A289;
+  font-weight: bold;
+}
+
+.selecionado-blog, .selecionado-blog:hover, article a:hover, #nav-blog:hover{
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.selecionado-tex, .selecionado-tex:hover, .gridfour a:hover, #nav-latex:hover {
+  color: darkolivegreen;
+  font-weight: bold;
+}
+
+.selecionado-start, .selecionado-start:hover, .gridtres a:hover, #nav-start:hover {
+  color: lightseagreen;
+  font-weight: bold;
+}
+
+.selecionado-contato, #nav-contato:hover {
+  color: maroon;
+  font-weight: bold;
+}
+
+.forms {
+	display: block;
+	text-align: center;
+}

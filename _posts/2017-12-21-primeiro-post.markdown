@@ -20,7 +20,7 @@ category: blog
 [gitmd]:https://github.github.com/gfm/
 [repothislink]:https://raw.githubusercontent.com/luigi-finando/luigi-finando.github.io/master/_posts/2017-12-21-primeiro-post.markdown
 
-## Sobre o *markdown*
+# Sobre o *markdown*
 
 [Markdown][Markdown] é uma *markup language* como *html* e *LaTeX*, ou seja, a escrita ocorre primeiramente em *plain text* e formatação se dá a partir de marcações convencionadas, quando o código-fonte é compilado. Esse processo é diferente de editores como *Microsoft Word*, *Libreoffice Writer* ou *Pages*, conhecidos como programas *WYSIWYG* (*What you see is what you get*). Editores de texto simples como *Notepad++* e *Vim* permitem um ambiente de escrita mais "limpo" e sem distrações, razão pela qual ela atraiu meu interese.
 
@@ -54,7 +54,7 @@ Acima destaquei os exemplos utilizando `>`, assim como demarquei blocos de códi
 
 O código fonte deste artigo está disponível publicamente no [meu Github][repothislink].
 
-## A plataforma [Jekyll][Jekyll] e o [Github Pages][GithubPages]
+# A plataforma [Jekyll][Jekyll] e o [Github Pages][GithubPages]
 
 Essa plataforma, instalada como uma [Ruby Gem][RubyGem], é uma combinação de [Liquid][Liquid] e [Markdown][Markdown], sendo uma ferramenta para a geração de *websites* estáticos.
 
