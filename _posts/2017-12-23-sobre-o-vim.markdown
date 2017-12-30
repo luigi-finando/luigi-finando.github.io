@@ -4,6 +4,8 @@ date: 2017-12-25 05:00:00 -0200
 title: Sobre o VIM
 author: Luís
 comments: true
+nav: corblog
+cor: corblog
 categories: blog
 ---
 [vi]:https://pt.wikipedia.org/wiki/Vi

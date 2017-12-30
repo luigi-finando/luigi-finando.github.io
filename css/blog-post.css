@@ -56,7 +56,7 @@ div#disqus {
   border-top: solid;
 }
 
-article.highlighter-rouge {
+code.highlighter-rouge {
   color: lightcoral;
   background-color: #000000;
   font-size: 20pt;
@@ -68,10 +68,11 @@ article img {
   border: solid #ffffd7;
 }
 
-article p img, article img + em, article p img + em > a {
+article p img, article img + em, div.article-content p em a {
   display: block;
   text-align: center !important;
   font-size: 10pt;
+  font-weight: normal;
   margin: auto;
   padding: 0;
 }

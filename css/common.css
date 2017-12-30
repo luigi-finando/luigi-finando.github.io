@@ -62,22 +62,22 @@ hr {
   width: 100%;
 }
 
-.selecionado-home, .selecionado-home:hover, .indexgrid a:hover, #nav-inicio:hover {
+.selecionado-bio, .indexgrid a:hover, #nav-bio:hover {
   color: #00A289;
   font-weight: bold;
 }
 
-.selecionado-blog, .selecionado-blog:hover, article a:hover, #nav-blog:hover{
+.selecionado-corblog, article a:hover, #nav-corblog:hover{
   color: lightcoral;
   font-weight: bold;
 }
 
-.selecionado-tex, .selecionado-tex:hover, .gridfour a:hover, #nav-latex:hover {
+.selecionado-tex, .gridfour a:hover, #nav-tex:hover {
   color: darkolivegreen;
   font-weight: bold;
 }
 
-.selecionado-start, .selecionado-start:hover, .gridtres a:hover, #nav-start:hover {
+.selecionado-start, .gridtres a:hover, #nav-start:hover {
   color: lightseagreen;
   font-weight: bold;
 }
