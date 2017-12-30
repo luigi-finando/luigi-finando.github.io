@@ -10,6 +10,9 @@ h1 {
   margin: 0;
 }
 
+.gridfour h2 {
+  font-size: 16pt;
+}
 #coluna {
   transition: opacity 0.5s linear;…
   transition-property:  all;
@@ -24,7 +27,7 @@ h1 {
 
 #coluna:hover a, #coluna:hover br {
   display: inline;
-  font-size: 23pt;
+  font-size: 18pt;
   opacity: 1;
 }
 
@@ -37,6 +40,7 @@ h1 {
   padding: 1em;
   margin: auto;
 }
+
 @media(max-width: 800px){
 
   .gridfour {

@@ -13,11 +13,11 @@ article header {
 }
 
 h3, article a  {
-  font-size: 19pt;
+  font-size: 17pt;
 }
 
 article h1, .post-content h2, article h2{
-  font-size: 22pt;
+  font-size: 20pt;
   text-align: left;
 }
 
@@ -72,7 +72,7 @@ li {
 @media(max-width: 800px){
 
   article a, article p {
-    font-size: 16pt;
+    font-size: 14pt;
   }
 
   .post {
@@ -87,11 +87,11 @@ li {
   }
   
   a {
-    font-size: 30pt;
+    font-size: 25pt;
   }
   
   .highlighter-rouge, .highlight, code p, h3 {
-    font-size: 14pt;
+    font-size: 13pt;
   }
   
   article {

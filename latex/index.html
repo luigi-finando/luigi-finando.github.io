@@ -2,13 +2,21 @@
 layout: default
 title: LaTeX - Links Úteis
 ---
-<h1> Recursos</h1>
+<h1> Recursos </h1>
 
 <div class=gridfour> 
+
   <div id="coluna">
   <h2> Sharelatex </h2>
-  {% for recurso in site.data.recursos %}
+  {% for sharelatex_hash in site.data.sharelatex %}
   <a href="{{recurso.link}}"> {{recurso.tipo}} </a><br>
+  {% endfor %}
+  </div>
+
+  <div id="coluna">
+  <h2> Wikibooks </h2>
+  {% for wiki in site.data.wiki %}
+  <a href="{{wiki.link}}"> {{wiki.wiki}} </a><br>
   {% endfor %}
   </div>
 </div>

@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  margin-top: 6%;
+  margin-top: 80px;
   margin-bottom: 6%;
   display: grid;
 	grid-template-columns: 1fr;
@@ -74,7 +74,6 @@ a, p {
 
 h1 {
 	color: #ffffd7;
-	font-size: 28pt;
 	text-align: center;
 }
 
@@ -152,7 +151,7 @@ hr {
     font-size: 16pt;
   }
 
-  h1, h2, .post-title p, h2 a {
+  h2, .post-title p, h2 a {
     font-size: 28pt;
   }
   
