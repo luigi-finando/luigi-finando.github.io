@@ -250,6 +250,19 @@ div.gridtres > div > ul > li {
   text-align: center !important;
 }
 
+#tecnico * {
+  color: #ffffd7;
+  font-size: 1vw;
+}
+
+#tecnico ul {
+  display: none;
+}
+
+#tecnico:hover ul {
+  display: block;
+}
+
 @media(max-width: 800px){
 
   .gridtres {
@@ -446,19 +459,45 @@ li {
   margin: auto;
 }
 
+pre {
+  padding: 1em;
+  background-color: #000000;
+}
+
+code {
+  font-size: 14pt !important;
+}
+
+div.article-content blockquote {
+  padding: 0;
+  margin-left: 2em;
+  width: 100% !important;
+}
+
+blockquote li {
+  width: 80% !important;
+}
+
 @media(min-width: 1700px){
 
   article {
-    width: 90%;
+    width: 80%;
   }
 
   div.article-content {
-    columns: 700px;
-    column-gap: 8em;
+    columns: 650px;
+    column-gap: 12em;
   }
 
   .article-content p img {
     width:70%;
+
+  div.article-content blockquote {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+  }
+
 }
 
 @media(max-width: 800px){

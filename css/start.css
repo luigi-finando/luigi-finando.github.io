@@ -11,6 +11,19 @@ div.gridtres > div > ul > li {
   text-align: center !important;
 }
 
+#tecnico * {
+  color: #ffffd7;
+  font-size: 1vw;
+}
+
+#tecnico ul {
+  display: none;
+}
+
+#tecnico:hover ul {
+  display: block;
+}
+
 @media(max-width: 800px){
 
   .gridtres {

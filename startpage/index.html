@@ -48,4 +48,15 @@ cor: start
     </ul>
   </div>
 
+  <div id="tecnico">
+    <h2>Técnico</h2>
+    <ul>
+      {% for startlink in site.data.startlinks %}
+        {% if startlink.fonte == 'localhost' %} 
+          <li><a href="{{startlink.link}}"> {{startlink.tipo}} </a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+
 </div>
