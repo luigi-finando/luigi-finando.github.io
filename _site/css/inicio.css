@@ -1,6 +1,6 @@
 img {
   padding: 0;
-  width: 70%;
+  width: 35vw;
   line-height: 100%;
 }
 
@@ -41,6 +41,10 @@ img {
   #bio p, #bio a, #bio h2 {
     font-size: 16pt;
   }
+
+  img {
+    width: 70vw;
+    }
 
   .indexgrid {
     grid-template-columns: 100%;
