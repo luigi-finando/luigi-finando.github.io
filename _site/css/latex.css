@@ -13,12 +13,6 @@ h1 {
 .gridfour h2 {
   font-size: 16pt;
 }
-#coluna {
-  transition: opacity 0.5s linear;…
-  transition-property:  all;
-  transition-delay: 1s;
-  transition-duration: 1s;
-}
 
 #coluna a, #coluna br {
   display: none;

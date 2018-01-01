@@ -13,7 +13,7 @@ div.gridtres > div > ul > li {
 
 #tecnico * {
   color: #ffffd7;
-  font-size: 1vw;
+  font-size: 12pt;
 }
 
 #tecnico ul {
@@ -22,6 +22,10 @@ div.gridtres > div > ul > li {
 
 #tecnico:hover ul {
   display: block;
+}
+
+#tecnico {
+  grid-column-end: 3;
 }
 
 @media(max-width: 800px){

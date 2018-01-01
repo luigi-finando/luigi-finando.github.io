@@ -1,14 +1,11 @@
-form {
-  margin: 8%;
-}
-
-textarea {
+.forms textarea {
 	background-color: #ffffd7;
 	font-family: "Open Sans", sans-serif;
 	font-size: 20pt;
 	color: black;
 	width: 90%;
   height: 300px;
+  border: 0;
 }
 
 @media(max-width: 800px){

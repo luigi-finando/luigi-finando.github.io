@@ -87,6 +87,10 @@ hr {
   font-weight: bold;
 }
 
+form {
+  margin: 8%;
+}
+
 .forms {
 	display: block;
 	text-align: center;
@@ -185,6 +189,44 @@ footer {
 }
 
 
+.alunosContainer div.aviso * {
+  display: none;
+  color: green;
+}
+
+.alunosContainer * {
+  display: grid;
+}
+
+.alunosContainer form * {
+  margin: auto;
+  width: 80%;
+  border: 0;
+}
+
+.alunosContainer form {
+  padding: 0;
+  margin: 0;
+}
+
+.alunosContainer form button {
+  border: 0;
+  padding: 1em;
+	background-color: #ffffd7;
+  color: #121212;
+  margin: 1em auto 1em auto;
+}
+
+.alunosContainer form textarea {
+	background-color: #ffffd7;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20pt;
+	color: black;
+  border: 0;
+}
+
+
+
 .gridfour {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -199,12 +241,6 @@ h1 {
 
 .gridfour h2 {
   font-size: 16pt;
-}
-#coluna {
-  transition: opacity 0.5s linear;…
-  transition-property:  all;
-  transition-delay: 1s;
-  transition-duration: 1s;
 }
 
 #coluna a, #coluna br {
@@ -237,6 +273,24 @@ h1 {
 
 }
 
+.forms textarea {
+	background-color: #ffffd7;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20pt;
+	color: black;
+	width: 90%;
+  height: 300px;
+  border: 0;
+}
+
+@media(max-width: 800px){
+
+  textarea {
+    font-size: 16pt;
+  }
+
+}
+
 
 .gridtres {
 	display: grid;
@@ -252,7 +306,7 @@ div.gridtres > div > ul > li {
 
 #tecnico * {
   color: #ffffd7;
-  font-size: 1vw;
+  font-size: 12pt;
 }
 
 #tecnico ul {
@@ -263,6 +317,10 @@ div.gridtres > div > ul > li {
   display: block;
 }
 
+#tecnico {
+  grid-column-end: 3;
+}
+
 @media(max-width: 800px){
 
   .gridtres {
@@ -271,27 +329,6 @@ div.gridtres > div > ul > li {
   
   .gridtres a {
     font-size: 23pt;
-  }
-
-}
-
-form {
-  margin: 8%;
-}
-
-textarea {
-	background-color: #ffffd7;
-	font-family: "Open Sans", sans-serif;
-	font-size: 20pt;
-	color: black;
-	width: 90%;
-  height: 300px;
-}
-
-@media(max-width: 800px){
-
-  textarea {
-    font-size: 16pt;
   }
 
 }
@@ -491,11 +528,6 @@ blockquote li {
 
   .article-content p img {
     width:70%;
-
-  div.article-content blockquote {
-    padding: 0;
-    margin: 0;
-    width: 80%;
   }
 
 }

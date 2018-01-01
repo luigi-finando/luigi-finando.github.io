@@ -87,6 +87,10 @@ hr {
   font-weight: bold;
 }
 
+form {
+  margin: 8%;
+}
+
 .forms {
 	display: block;
 	text-align: center;
