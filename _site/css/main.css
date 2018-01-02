@@ -96,6 +96,10 @@ form {
 	text-align: center;
 }
 
+#showcase {
+  position: relative;
+}
+
 img {
   padding: 0;
   width: 35vw;
